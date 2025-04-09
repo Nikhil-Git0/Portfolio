@@ -1,0 +1,18 @@
+.frame {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: nowrap;
+  width: 100%;
+
+}
+
+@media (max-width: 768px) {
+  .frame {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    gap: 16px; /* Reduce gap between cards */
+  }
+}
+
+
