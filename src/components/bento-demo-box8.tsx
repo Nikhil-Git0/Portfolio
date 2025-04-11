@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 const featureBox8 = {
   Icon: FolderOpenIcon,
   name: "Certificates",
-  description: "View and manage your certificates.",
+  description: "View my achievement & certificates.",
   href: "#",
   cta: "View Certificates",
   background: <div className="absolute inset-0 bg-gradient-to-br" />,
